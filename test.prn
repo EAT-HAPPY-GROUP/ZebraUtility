@@ -1,0 +1,82 @@
+^XA
+^MMC
+^JUS
+^PW500
+^MNN
+^MTT
+^LH0,0
+^LL1500
+^LS-20
+^FO30,20^A0,55,36^FH\^CI28^FDEbi Avocado Mix^FS^CI27
+^FO24,80^GB480,2,2^FS
+^FO30,105,^A0,20,18^FH\^CI28^FDGesamtfüllmenge^FS^CI27
+^FO500,95,1^A0,45,30^FH\^CI28^FD439g^FS^CI27
+^FO24,145^GB480,2,2^FS
+^FO30,160^A0,20,18^FH\^CI28^FDSushi: 8x Maki (4x mit Avocado, 4x mit Avocado und^FS^CI27
+^FO30,185^A0,20,18^FH\^CI28^FDGarnele); 5x California mit Garnele im Teigmantel^FS^CI27
+^FO30,210^A0,20,18^FH\^CI28^FDfrittiert, Gurke, Avocado, Miso-Würzsauce, Schnittlauch und^FS^CI27
+^FO30,235^A0,20,18^FH\^CI28^FDscharfer Gewürzmischung; 2x Nigiri mit Garnele im^FS^CI27
+^FO30,260^A0,20,18^FH\^CI28^FDTeigmantel frittiert, Miso-Würzsauce und Schnittlauch.^FS^CI27
+^FO30,285^A0,20,18^FH\^CI28^FDBeilage: Eingelegter Ingwer mit Süßungsmitteln (5 g).^FS^CI27
+^FO24,310^GB480,2,2^FS
+^FO30,325^A0,20,18^FH\^CI28^FDZutaten Sushi: 53 % Reiszubereitung (gekochter Reis,^FS^CI27
+^FO30,350^A0,20,18^FH\^CI28^FDZucker, Wasser, Salz, Branntweinessig, Reisessig,^FS^CI27
+^FO30,375^A0,20,18^FH\^CI28^FDRohrzuckermelasse, Rapsöl), 22 % Garnele (GARNELE^FS^CI27
+^FO30,400^A0,20,18^FH\^CI28^FD[Litopenaeus vannamei], Salz), 9,1 % Avocado, 9,1 % Garnele^FS^CI27
+^FO30,425^A0,20,18^FH\^CI28^FDim Teigmantel frittiert (GARNELE [Litopenaeus vannamei],^FS^CI27
+^FO30,450^A0,20,18^FH\^CI28^FDWEIZENMEHL, modifizierte Stärke, SOJAÖL, Salz, Palmöl,^FS^CI27
+^FO30,475^A0,20,18^FH\^CI28^FDZucker, Hefe, Verdickungsmittel: Guarkernmehl;^FS^CI27
+^FO30,500^A0,20,18^FH\^CI28^FDStabilisatoren: Triphosphate, Polyphosphate; Emulgator:^FS^CI27
+^FO30,525^A0,20,18^FH\^CI28^FDMono- und Diglyceride von Speisefettsäuren; Gewürzextrakt),^FS^CI27
+^FO30,550^A0,20,18^FH\^CI28^FD3,4 % Gurke, 1,6 % Miso-Würzsauce (Wasser, Rapsöl,^FS^CI27
+^FO30,575^A0,20,18^FH\^CI28^FDMisopaste [Wasser, SOJABOHNEN, Reis, Salz],^FS^CI27
+^FO30,600^A0,20,18^FH\^CI28^FDAnanassaftkonzentrat, Apfelessig, Zucker, modifizierte^FS^CI27
+^FO30,625^A0,20,18^FH\^CI28^FDStärke, Branntweinessig, Knoblauch, Senf [Wasser, SENFSAAT,^FS^CI27
+^FO30,650^A0,20,18^FH\^CI28^FDBranntweinessig, Salz, Zucker, Gewürze], Salz,^FS^CI27
+^FO30,675^A0,20,18^FH\^CI28^FDLimettensaftkonzentrat, Zwiebel, Kurkuma, Gewürzextrakt,^FS^CI27
+^FO30,700^A0,20,18^FH\^CI28^FDVerdickungsmittel: Xanthan; Konservierungsstoff:^FS^CI27
+^FO30,725^A0,20,18^FH\^CI28^FDKaliumsorbat), 0,9 % Schnittlauch, Nori-Algen, 0,1 %^FS^CI27
+^FO30,750^A0,20,18^FH\^CI28^FDscharfe Gewürzmischung (SESAM, Seealge, Chili, Ingwer,^FS^CI27
+^FO30,775^A0,20,18^FH\^CI28^FDPfeffer, Yuzufruchtschale). Zutaten Beilage: Eingelegter^FS^CI27
+^FO30,800^A0,20,18^FH\^CI28^FDIngwer mit Süßungsmitteln (Ingwer, Wasser, Salz,^FS^CI27
+^FO30,825^A0,20,18^FH\^CI28^FDSäuerungsmittel: Essigsäure, Citronensäure;^FS^CI27
+^FO30,850^A0,20,18^FH\^CI28^FDKonservierungsstoff: Kaliumsorbat; Süßungsmittel:^FS^CI27
+^FO30,875^A0,20,18^FH\^CI28^FDAspartam*, Saccharin, Sucralose)^FS^CI27
+^FO24,900^GB480,2,2^FS
+^FO24,910^GB480,26,1^FS
+^FO30,915^A0,20,18^FH\^CI28^FDDurchschnittliche Nährwerte je 100g^FS^CI27
+^FO24,935^GB280,26,1^FS
+^FO303,935^GB200,26,1^FS
+^FO30,940^A0,20,18^FH\^CI28^FDBrennwert^FS^CI27
+^FO320,940^A0,20,18^FH\^CI28^FD0 kj / 0 kcal^FS^CI27
+^FO24,960^GB280,26,1^FS
+^FO303,960^GB200,26,1^FS
+^FO30,965^A0,20,18^FH\^CI28^FDFett^FS^CI27
+^FO320,965^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO24,985^GB280,26,1^FS
+^FO303,985^GB200,26,1^FS
+^FO30,990^A0,20,18^FH\^CI28^FDdavon gesättigte Fettsäuren^FS^CI27
+^FO320,990^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO24,1010^GB280,26,1^FS
+^FO303,1010^GB200,26,1^FS
+^FO30,1015^A0,20,18^FH\^CI28^FDKohlenhydrate^FS^CI27
+^FO320,1015^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO24,1035^GB280,26,1^FS
+^FO303,1035^GB200,26,1^FS
+^FO30,1040^A0,20,18^FH\^CI28^FDdavon Zucker^FS^CI27
+^FO320,1040^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO24,1060^GB280,26,1^FS
+^FO303,1060^GB200,26,1^FS
+^FO30,1065^A0,20,18^FH\^CI28^FDEiweiß^FS^CI27
+^FO320,1065^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO24,1085^GB280,26,1^FS
+^FO303,1085^GB200,26,1^FS
+^FO30,1090^A0,20,18^FH\^CI28^FDSalz^FS^CI27
+^FO320,1090^A0,20,18^FH\^CI28^FD0 g^FS^CI27
+^FO30,1130^A0,20,18^FH\^CI28^FDFischherkunft: Garnelen gezüchtet in Vietnam.^FS^CI27
+^FO24,1155^GB480,2,2^FS
+^FO30,1170^A0,20,18^FH\^CI28^FDZubereitung: Verzehrfertig, nicht erhitzen, nicht^FS^CI27
+^FO30,1195^A0,20,18^FH\^CI28^FDeinfrieren. Verbrauchsdatum kann nur bei ununterbrochener^FS^CI27
+^FO30,1220^A0,20,18^FH\^CI28^FDLagerung bei max. 7°C eingehalten werden.^FS^CI27
+^FO24,1245^GB480,2,2^FS
+^XZ
