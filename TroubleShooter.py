@@ -1,6 +1,7 @@
 import os, sys
 import win32print
 import tkinter as tk
+import binascii
 
 ### print content of e: internal flash memory
 def listMemoryE():
@@ -10,6 +11,25 @@ def listMemoryE():
 ### print content of R: internal RAM memory
 def listMemoryR():
     zpl = "^XA^LL300^WDR:*.*^XZ"
+    sendToPrinter(bytes(zpl, "utf-8"))
+
+def loadFontEHBasic():
+    file = 'EH-BASIC.TTF'
+    with open(file, 'rb') as f:
+        binaryData = f.read()
+
+    #convert to hex string
+    hexData = binascii.hexlify(binaryData)
+
+
+    #Load ttf to PRINTER. https://docs.zebra.com/content/tcm/us/en/printers/software/zebra-zpl-ii,-zbi-2,-set-get-do,-mirror,-wml-programming-guide/c-zpl-zpl-commands/r-zpl-du.html
+    zpl = "^XA^CI~DUE:"+file.upper()+","+str(len(binaryData))+","+ str(hexData)[2:-1].upper()
+
+    #print teststring
+    zpl = zpl +"^FO30,60^A@N,70,40,E:"+file[:-4]+".FNT^FDEAT Happyness^FS"
+
+    #close 
+    zpl = zpl + "^XZ"
     sendToPrinter(bytes(zpl, "utf-8"))
 
 ### send given bytes to default printer
@@ -40,12 +60,12 @@ root = tk.Tk()
 
 
 # place a label on the root window
-message = tk.Label(root, text="Print Memory").pack()
+tk.Label(root, text="Print Memory").pack()
 
-canvas = tk.Canvas(root, width=300, height=100, bg='white')
-canvas.pack(anchor=tk.LEFT, expand=True)
-canvas.Button(root, text="E:", command=listMemoryE).pack()
-canvas.Button(root, text="R:", command=listMemoryR).pack()
+tk.Button(root, text="E:", command=listMemoryE).pack()
+tk.Button(root, text="R:", command=listMemoryR).pack()
+tk.Label(root, text="Load Font").pack()
+tk.Button(root, text="EH-BASIC.TTF", command=loadFontEHBasic).pack()
 
 
 # keep the window displaying
