@@ -60,13 +60,16 @@ root = tk.Tk()
 
 
 # place a label on the root window
-tk.Label(root, text="Print Memory").pack()
+frame = tk.Frame(root)
+tk.Label(frame, text="Print Memory").pack()
+tk.Button(frame, text="E:", command=listMemoryE).pack(side="left")
+tk.Button(frame, text="R:", command=listMemoryR).pack(side="left",padx=5)
+frame.pack(side="top")
 
-tk.Button(root, text="E:", command=listMemoryE).pack()
-tk.Button(root, text="R:", command=listMemoryR).pack()
-tk.Label(root, text="Load Font").pack()
-tk.Button(root, text="EH-BASIC.TTF", command=loadFontEHBasic).pack()
-
+frame = tk.Frame(root)
+tk.Label(frame, text="Load Font").pack()
+tk.Button(frame, text="EH-BASIC.TTF", command=loadFontEHBasic).pack(side="left")
+frame.pack(side="top")
 
 # keep the window displaying
 root.mainloop()
