@@ -13,6 +13,21 @@ def listMemoryR():
     zpl = "^XA^LL300^WDR:*.*^XZ"
     sendToPrinter(bytes(zpl, "utf-8"))
 
+### print content of R: internal RAM memory
+def listMemoryR10():
+    zpl = "^XA^LL300^WDR:*.*^XZ"
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+    sendToPrinter(bytes(zpl, "utf-8"))
+
+
 def loadFontEHBasic():
     file = 'EH-BASIC.TTF'
     with open(file, 'rb') as f:
@@ -64,6 +79,7 @@ frame = tk.Frame(root)
 tk.Label(frame, text="Print Memory").pack()
 tk.Button(frame, text="E:", command=listMemoryE).pack(side="left")
 tk.Button(frame, text="R:", command=listMemoryR).pack(side="left",padx=5)
+tk.Button(frame, text="10x R:", command=listMemoryR10).pack(side="left",padx=5)
 frame.pack(side="top")
 
 frame = tk.Frame(root)
